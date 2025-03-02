@@ -7,6 +7,6 @@ for (let i = 0; i < buttons.length; i++) {
     });
 }
 
-document.getElementById('clr-his-btn').addEventListener('click',function(){
+document.getElementById('clr-his-btn').addEventListener('click', function () {
     document.getElementById('task-complete-container').innerHTML = "";
 })
